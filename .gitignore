@@ -1,0 +1,105 @@
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Owen's changes #
+*.sublime*
+Assets/UnityVS/*
+*.swp
+Penis\ Proto/
+Penis\ Proto.meta
+
+#Rey’s Changes #
+Builds/
+EXP/BeautifulUgly_IntelBuild.zip
+EXP/BU.exe
+EXP/player_win_x86.pdb
+EXP/player_win_x86_s.pdb
+EXP/BU_Data/level0
+EXP/BU_Data/level1
+EXP/BU_Data/level10
+EXP/BU_Data/level11
+EXP/BU_Data/level2
+EXP/BU_Data/level3
+EXP/BU_Data/level4
+EXP/BU_Data/level5
+EXP/BU_Data/level6
+EXP/BU_Data/level7
+EXP/BU_Data/level8
+EXP/BU_Data/level9
+EXP/BU_Data/mainData
+EXP/BU_Data/resources.assets
+EXP/BU_Data/sharedassets0.assets
+EXP/BU_Data/sharedassets1.assets
+EXP/BU_Data/sharedassets1.resource
+EXP/BU_Data/sharedassets10.assets
+EXP/BU_Data/sharedassets10.resource
+EXP/BU_Data/sharedassets11.assets
+EXP/BU_Data/sharedassets11.resource
+EXP/BU_Data/sharedassets12.assets
+EXP/BU_Data/sharedassets2.assets
+EXP/BU_Data/sharedassets2.resource
+EXP/BU_Data/sharedassets3.assets
+EXP/BU_Data/sharedassets3.resource
+EXP/BU_Data/sharedassets4.assets
+EXP/BU_Data/sharedassets5.assets
+EXP/BU_Data/sharedassets6.assets
+EXP/BU_Data/sharedassets7.assets
+EXP/BU_Data/sharedassets8.assets
+EXP/BU_Data/sharedassets8.resource
+EXP/BU_Data/sharedassets9.assets
+EXP/BU_Data/sharedassets9.resource
+EXP/BU_Data/Managed/Assembly-CSharp-firstpass.dll
+EXP/BU_Data/Managed/Assembly-CSharp.dll
+EXP/BU_Data/Managed/Assembly-UnityScript-firstpass.dll
+EXP/BU_Data/Managed/Assembly-UnityScript.dll
+EXP/BU_Data/Managed/Boo.Lang.dll
+EXP/BU_Data/Managed/JelloPoly2Tri.dll
+EXP/BU_Data/Managed/Mono.Security.dll
+EXP/BU_Data/Managed/mscorlib.dll
+EXP/BU_Data/Managed/System.Core.dll
+EXP/BU_Data/Managed/System.dll
+EXP/BU_Data/Managed/UnityEngine.dll
+EXP/BU_Data/Managed/UnityEngine.UI.dll
+EXP/BU_Data/Mono/mono.dll
+EXP/BU_Data/Mono/etc/mono/browscap.ini
+EXP/BU_Data/Mono/etc/mono/config
+EXP/BU_Data/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx
+EXP/BU_Data/Mono/etc/mono/1.0/machine.config
+EXP/BU_Data/Mono/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+EXP/BU_Data/Mono/etc/mono/2.0/machine.config
+EXP/BU_Data/Mono/etc/mono/2.0/settings.map
+EXP/BU_Data/Mono/etc/mono/2.0/web.config
+EXP/BU_Data/Mono/etc/mono/2.0/Browsers/Compat.browser
+EXP/BU_Data/Mono/etc/mono/mconfig/config.xml
+EXP/BU_Data/Resources/unity default resources
+EXP/BU_Data/Resources/unity_builtin_extra
