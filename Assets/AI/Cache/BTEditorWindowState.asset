@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1149339567, guid: 3c8e556f3cb6c6540bca5d6f8ac22a90, type: 3}
+  m_Name: BTEditorWindowState
+  m_EditorClassIdentifier: 
+  HolderNodes:
+  - FileName: .currentai
+    BehaviorTreeName: Currently Selected AI
+    BehaviorTreeID: 1
+    LastUpdate: 635296504952265066
+    LastModified: 635296504952165066
+    Errored: 0
+  - FileName: .createxml
+    BehaviorTreeName: Create New Behavior Tree
+    BehaviorTreeID: 0
+    LastUpdate: 0
+    LastModified: 0
+    Errored: 0
+  - FileName: MobotAI.xml
+    BehaviorTreeName: MobotAI
+    BehaviorTreeID: 1
+    LastUpdate: 635296504952415066
+    LastModified: 635296504952265066
+    Errored: 0
+  TreeState:
+    _branchRepo:
+    - _fields: []
+      _type: 0
+      _id: 0
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 0
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: MobotAI
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: variablesopen
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 5
+      _id: 1
+      _parent: 0
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635296504941965052
+      _children: 02000000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: Mobot
+        _recordChange: 1
+        _changed: 0
+      - _field: open
+        _currentValue: True
+        _recordChange: 0
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      _type: 20
+      _id: 2
+      _parent: 1
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635296492119750623
+      _children: 0300000004000000
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: DetectPlayer
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: success
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: sensor
+        _currentValue: Sensor
+        _recordChange: 1
+        _changed: 0
+      - _field: aspect
+        _currentValue: PlayerAspect
+        _recordChange: 1
+        _changed: 0
+      - _field: variable
+        _currentValue: varPlayer
+        _recordChange: 1
+        _changed: 0
+      _type: 9
+      _id: 3
+      _parent: 2
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635296504941965052
+      _children: 
+      _variables: 
+    - _fields:
+      - _field: name
+        _currentValue: ShootPlayer
+        _recordChange: 1
+        _changed: 0
+      - _field: precondition
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: repeatuntil
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: debug
+        _currentValue: False
+        _recordChange: 1
+        _changed: 0
+      - _field: classname
+        _currentValue: ShootPlayer
+        _recordChange: 1
+        _changed: 0
+      _type: 1
+      _id: 4
+      _parent: 2
+      _reference: 0
+      _referencedCount: 0
+      _lastUpdate: 635296492251138138
+      _children: 
+      _variables: 
+    _freeList: 
+  Version: 14
