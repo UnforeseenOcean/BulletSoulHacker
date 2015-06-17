@@ -21,7 +21,7 @@ public class IntroScript : MonoBehaviour {
 	public GameObject serverCam;
 	public GUIText serverText;
 	
-	private float timer=49f;
+	private float timer=0f;
 	
 	private float lerpTimer=0f;
 	
@@ -51,6 +51,9 @@ public class IntroScript : MonoBehaviour {
 		
 		timer+=Time.deltaTime;
 		Debug.Log (timer);
+
+		if (Input.GetKeyDown (KeyCode.Space))
+			timer = 50f;
 		
 		if(timer<3f)
 		{
